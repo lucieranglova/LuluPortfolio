@@ -82,6 +82,10 @@ section{
     line-height: 30px;
 }
 
+span{
+    color:  rgb(109, 196, 202);
+}
+
 .social-media a{
     display: inline-flex;
     justify-content: center;
@@ -98,4 +102,15 @@ section{
 
 .social-media a:hover{
     color: rgb(109, 196, 202);
+}
+
+.btn{
+    background:   rgb(109, 196, 202);
+    display: inline-block;
+    border: 3px;
+    border-color: blanchedalmond;
+    border-radius: 25px;
+    padding: 10px 20px;
+    color: black;
+    font-weight: 500;
 }
