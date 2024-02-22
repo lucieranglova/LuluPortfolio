@@ -24,6 +24,8 @@ section{
     padding: 10rem 9% 2rem;
 }
 
+/* HEADER */
+
 .header{
     position: fixed;
     top: 0;
@@ -54,6 +56,8 @@ section{
 .navbar a:hover{
     color: rgb(109, 196, 202);
 }
+
+/* HOME */
 
 .home{
     display: flex;
@@ -86,6 +90,8 @@ span{
     color:  rgb(109, 196, 202);
 }
 
+/* SOCIAL MEDIA BUTTONS */
+
 .social-media a{
     display: inline-flex;
     justify-content: center;
@@ -103,6 +109,8 @@ span{
 .social-media a:hover{
     color: rgb(109, 196, 202);
 }
+
+/* CV BUTTON */
 
 .btn{
     background:   rgb(109, 196, 202);
