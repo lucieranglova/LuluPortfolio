@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    overflow: hidden;
+}
+
+
+body{
+    background-image: url(BackgroundLM);
+    background-color: rgb(23, 30, 37);
+}
+
+section{
+    color: blanchedalmond;
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background-color: rgb(23, 30, 37);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: large;
+    color: blanchedalmond;
+    font-weight: 900;
+    cursor: default;
+    transition: 3s;
+}
+
+.navbar a{
+    font-size: medium;
+    color: blanchedalmond;
+    margin-left: 4rem;
+}
+
+.navbar a:hover{
+    color: rgb(109, 196, 202);
+}
+
+.home{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.home-memoji img{
+    width: 35vw;
+}
+
+.home-content h1{
+    font-size: 60px;
+    text-align: left;
+}
+
+.home-content h3{
+    font-weight: 300;
+    font-size: 30px;
+    text-align: left;
+    line-height: 70px;
+}
+
+.home-content p{
+    text-align: left;
+    line-height: 30px;
+}
+
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background: transparent;
+    font-size: 27px;
+    color: blanchedalmond;
+    border: 1px solid blanchedalmond;
+    border-radius: 50%;
+    margin: 20px 20px 20px 0;
+}
+
+.social-media a:hover{
+    color: rgb(109, 196, 202);
+}
