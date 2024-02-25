@@ -9,13 +9,13 @@
 }
 
 html{
-    overflow: hidden;
+    
 }
 
 
 body{
-    background-image: url(BackgroundLM);
     background-color: rgb(23, 30, 37);
+    position: relative;
 }
 
 section{
@@ -47,6 +47,8 @@ section{
     transition: 3s;
 }
 
+
+
 .navbar a{
     font-size: medium;
     color: blanchedalmond;
@@ -63,6 +65,7 @@ section{
     display: flex;
     justify-content: left;
     align-items: center;
+    margin-bottom: -70px;
 }
 
 .home-memoji img{
@@ -81,6 +84,12 @@ section{
     line-height: 70px;
 }
 
+.home-content h5{
+    text-align: left;
+    line-height: 30px;
+    color: rgb(109, 196, 202);
+}
+
 .home-content p{
     text-align: left;
     line-height: 30px;
@@ -91,6 +100,10 @@ span{
 }
 
 /* SOCIAL MEDIA BUTTONS */
+
+.social-media{
+    color: blanchedalmond;
+}
 
 .social-media a{
     display: inline-flex;
@@ -122,3 +135,127 @@ span{
     color: black;
     font-weight: 500;
 }
+
+/* MY PROJECTS 1 */
+
+.my-projects-h1 h1{
+    font-weight: 200;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    color: blanchedalmond;
+    padding-top: 150px;
+    padding-bottom: 0;
+}
+
+/* PROJECT 1 */
+
+
+.project1section{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    padding: 0;
+    left: 30px;
+}
+
+.project1{
+    justify-content: left;
+    align-items: center;
+    display: flex;
+}
+
+
+
+.project1text h2{
+    color:blanchedalmond;
+    font-weight: 400;
+    font-size: 40px;
+    padding: 0;
+    margin-left: 60px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.project1text h3{
+    color:blanchedalmond;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 0;
+    margin-left: 60px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.project1text li{
+    color:blanchedalmond;
+    font-weight: 400;
+    padding: 0;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.project1-img img{
+    width: 550px;
+    display: block;
+}
+
+.progress-container{
+    position: relative;
+    background: blanchedalmond;
+    max-width: 300px;
+    max-height: 60px;
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 25px;
+    box-shadow: 5px 3px 5px rgb(72, 75, 78);
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.progress-container .progress-bar{
+    width: 100%;
+    margin: 7px 0;
+}
+
+.progress-bar .title{
+    display: block;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(23, 30, 37);
+    text-align: center;
+}
+
+.progress-bar .progress-box{
+    background: rgb(60, 62, 65);
+    border-radius: 6px;
+    height: 8px;
+    width: 100%;
+    margin-top: 7px;
+}
+
+.progress-box .progress-per{
+    position: relative;
+    background: rgb(109, 196, 202);
+    display: block;
+    height: 100%;
+    width: 24%;
+    border-radius: 6px;
+    animation: progress 2s ease-in-out forwards infinite;
+    opacity: 0;
+}
+
+@keyframes progress{
+    0%{
+        width: 0;
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
