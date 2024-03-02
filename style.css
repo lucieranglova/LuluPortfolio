@@ -55,9 +55,12 @@ section{
     margin-left: 4rem;
 }
 
-.navbar a:hover{
+.navbar a:hover,
+.navbar a.active{
     color: rgb(109, 196, 202);
 }
+
+
 
 /* HOME */
 
@@ -71,6 +74,7 @@ section{
 .home-memoji img{
     width: 35vw;
 }
+
 
 .home-content h1{
     font-size: 60px;
@@ -123,9 +127,11 @@ span{
     color: rgb(109, 196, 202);
 }
 
+
+
 /* CV BUTTON */
 
-.btn{
+.cvbtn{
     background:   rgb(109, 196, 202);
     display: inline-block;
     border: 3px;
@@ -135,6 +141,7 @@ span{
     color: black;
     font-weight: 500;
 }
+
 
 /* MY PROJECTS 1 */
 
@@ -147,6 +154,7 @@ span{
     padding-top: 150px;
     padding-bottom: 0;
 }
+
 
 /* PROJECT 1 */
 
@@ -178,6 +186,15 @@ span{
     margin-bottom: 20px;
 }
 
+.codeatgithub img{
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    position: absolute;
+    left: 270px;
+    top: 150px;
+}
+
 .project1text h3{
     color:blanchedalmond;
     font-weight: 400;
@@ -197,9 +214,70 @@ span{
     text-align: left;
 }
 
+.figma-dreamzzz{
+    color: blanchedalmond;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    margin-left: 60px;
+}
+
+.figma-dreamzzz a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background: transparent;
+    font-size: 27px;
+    color: blanchedalmond;
+    border: 1px solid blanchedalmond;
+    border-radius: 50%;
+    margin: 20px 20px 20px 0;
+}
+
+.figma-dreamzzz a:hover{
+    color: rgb(109, 196, 202);
+}
+
+.figmaprototype img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 330px;
+    left: 110px;
+}
+
 .project1-img img{
-    width: 550px;
-    display: block;
+    width: 700px;
+    align-items: center;
+    position: relative;
+    padding: 0;
+    left: 100px;
+    right: 0;
+}
+
+.lightmode img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 330px;
+    top: 390px;
+}
+
+.darkmode img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 400px;
+    top: 390px;
+}
+
+.project1-imgDM img{
+    width: 700px;
+    position: relative;
+    padding: 0;
+    left: -170px;
 }
 
 .progress-container{
