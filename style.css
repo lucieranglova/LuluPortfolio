@@ -204,14 +204,6 @@ span{
     margin-bottom: 20px;
 }
 
-.codeatgithub img{
-    width: 100px;
-    height: 100px;
-    padding: 0;
-    position: absolute;
-    left: 270px;
-    top: 150px;
-}
 
 .project1text h3{
     color:blanchedalmond;
@@ -307,7 +299,6 @@ span{
     width: 100%;
     padding: 10px 20px;
     border-radius: 25px;
-    box-shadow: 5px 3px 5px rgb(72, 75, 78);
     margin-top: 40px;
     margin-left: 50px;
 }
